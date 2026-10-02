@@ -1,4 +1,3 @@
-let frase = prompt('Inserisci una frase: ');
 function controllo(cntrl) {
     
 let str = cntrl.replace(/\W/g, "");
@@ -9,9 +8,7 @@ let strInv = str.split('').reverse().join('');
     return false;
 }
 }
-console.log(controllo(frase));
+console.log(controllo('i topi non avevano nipoti'));
 
-let frase2 = prompt('Inserisci una frase: ');
-console.log(controllo(frase2));
 
  
